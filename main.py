@@ -62,7 +62,7 @@ def delete_task():
         # Check if the task number is within the valid range
         while task_del < 1 or task_del > len(task_list):
             print("Please chose a valid option: ")
-            delete_task()
+        task_del = int(input("Which one do you want to delete? (Enter the task number)"))
 
 
         del task_list[task_del - 1]
