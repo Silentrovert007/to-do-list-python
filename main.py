@@ -54,15 +54,16 @@ def delete_task():
 
 
 def delete_task():
+    task_del = 0
     display_tasks()
     if len(task_list) == 0:
-        print("Task list is empty, there's no task to delete.\n")
+        print("And no task to delete.\n")
     else:
-        task_del = int(input("Which one do you want to delete? (Enter the task number)"))
+       # task_del = int(input("Which one do you want to delete? (Enter the task number)"))
         # Check if the task number is within the valid range
         while task_del < 1 or task_del > len(task_list):
             print("Please chose a valid option: ")
-        task_del = int(input("Which one do you want to delete? (Enter the task number)"))
+            task_del = int(input("Which one do you want to delete? (Enter the task number)"))
 
 
         del task_list[task_del - 1]
