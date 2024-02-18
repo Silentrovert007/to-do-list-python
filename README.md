@@ -47,3 +47,11 @@ To exit the Task Manager Application, choose the "Exit" option from the main men
 ## Additional Notes
 Ensure to input valid options and follow the prompts provided by the application to prevent errors.
 Take advantage of the task categorization (Inbox, Today, Tomorrow) to prioritize and manage your tasks effectively.
+
+### Simplified representation down bellow:
+<hr>
+<br>
+<p align="center">
+  <img src="./assets/out/assets/user-flow/usecasedtlist.png" alt="usecase diagram" width="500" height="600" >
+</p>
+
