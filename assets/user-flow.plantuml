@@ -1,0 +1,17 @@
+@startuml usecasedtlist
+skinparam actorStyle awesome
+left to right direction
+actor "user" as uc 
+package "task manager" {
+    usecase "add task" as at
+    usecase "display task" as dt 
+    usecase "delete task" as delt
+    usecase "exit" as ex
+
+}
+
+uc -- at
+uc -- dt
+uc -- delt
+uc -- ex
+@enduml
